@@ -1,0 +1,21 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "lodash.debounce": "^4.0.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
