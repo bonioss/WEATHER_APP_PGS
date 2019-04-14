@@ -129,7 +129,7 @@ function addCityToList(e) {
     li.appendChild(document.createTextNode(" " + citySearch.value.toUpperCase()));
     //create new link createElement
 
-    if (apiRequest(citySearch.value, li) !== "") { //to dodalem zeby nie dodawalo glupot, ale nie dziala
+    if (apiRequest(citySearch.value, li) !== "") { 
       //apiRequest(citySearch.value, li);
       const link = document.createElement('a');
 
@@ -175,7 +175,6 @@ function removeFromLocalStorage(cityItem) {
   }
 
   cities.forEach(function (city, index) {
-    //delete is a name of an icon and idk why (recurrence?) but its appended to city name
     if (cityItem.childNodes[1].textContent === city) {
       cities.splice(index, 1);
     }
